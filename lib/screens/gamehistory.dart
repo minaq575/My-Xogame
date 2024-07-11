@@ -20,21 +20,12 @@ class GameHistory extends StatelessWidget {
     }
 
     return Scaffold(
+      backgroundColor: Color.fromRGBO(120, 9, 137, 1),
       appBar: AppBar(
         title: Text('Game History'),
         backgroundColor: Color.fromARGB(255, 255, 255, 255),
       ),
       body: Container(
-        decoration: BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-            colors: [
-              Color.fromARGB(255, 226, 112, 236),
-              Color.fromARGB(255, 173, 45, 216)
-            ],
-          ),
-        ),
         child: SingleChildScrollView(
           padding: EdgeInsets.all(16.0),
           child: Column(
