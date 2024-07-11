@@ -14,7 +14,7 @@ class MyHomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Image.asset(
-              "/images/Xoxo.jpg",
+              "images/Xoxo.jpg",
               width: 200,
               height: 200,
               fit: BoxFit.cover,

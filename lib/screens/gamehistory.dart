@@ -20,7 +20,7 @@ class GameHistory extends StatelessWidget {
     }
 
     return Scaffold(
-      backgroundColor: Color.fromRGBO(120, 9, 137, 1),
+      backgroundColor: Color.fromRGBO(189, 40, 212, 1),
       appBar: AppBar(
         title: Text('Game History'),
         backgroundColor: Color.fromARGB(255, 255, 255, 255),

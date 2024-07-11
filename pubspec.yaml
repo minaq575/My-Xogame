@@ -27,7 +27,7 @@ flutter:
   uses-material-design: true
 
 assets:
-  - assets/images/Xoxo.jpg
+  - assets/images/
 
 fonts:
   -family: Noto
