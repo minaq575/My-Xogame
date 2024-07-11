@@ -14,14 +14,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(
         colorScheme: ColorScheme.fromSwatch(
-          primarySwatch:
-              Colors.deepPurple, // Use primarySwatch to set primary colors
+          primarySwatch: Colors.deepPurple,
         ),
-        scaffoldBackgroundColor:
-            Colors.transparent, // Make scaffold background transparent
+        scaffoldBackgroundColor: Colors.transparent,
       ),
       home: Scaffold(
-        extendBodyBehindAppBar: true, // Extend body behind appbar
+        extendBodyBehindAppBar: true,
         body: Container(
           decoration: BoxDecoration(gradient: MainColor.bgGradient),
           child: MyHomePage(),

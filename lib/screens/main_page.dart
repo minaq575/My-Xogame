@@ -19,7 +19,7 @@ class MyHomePage extends StatelessWidget {
               height: 200,
               fit: BoxFit.cover,
             ),
-            const SizedBox(height: 20), // Spacer
+            const SizedBox(height: 20),
             const Text(
               'XO GAME',
               style: TextStyle(
@@ -59,7 +59,6 @@ class MyHomePage extends StatelessWidget {
                     return HomeGame(playerName: playerName);
                   }));
                 } else {
-                  // Handle case where name is empty
                   showDialog(
                     context: context,
                     builder: (context) => AlertDialog(

@@ -205,7 +205,7 @@ class _HomeGameState extends State<HomeGame> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 120, 9, 137),
+      backgroundColor: Color.fromRGBO(120, 9, 137, 1),
       body: Padding(
         padding: const EdgeInsets.all(20),
         child: Column(
@@ -317,7 +317,7 @@ class _HomeGameState extends State<HomeGame> {
                             color: displayXO[index] == 'O'
                                 ? Color.fromARGB(255, 8, 131, 255)
                                 : Color.fromARGB(255, 255, 30, 173),
-                           ),
+                              ),
                               ),
                             ),
                           ),
