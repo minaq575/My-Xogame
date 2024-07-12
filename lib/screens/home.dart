@@ -31,7 +31,7 @@ class _HomeGameState extends State<HomeGame> {
   void _tapped(int index) {
     setState(() {
       if (displayXO[index] == '') {
-        displayXO[index] = oTurn ? 'O' : 'X';
+        displayXO[index] = 'O';
         filledBoxes++;
         _checkWinner();
         if (!winnerFound) {
