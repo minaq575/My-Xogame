@@ -149,7 +149,7 @@ class _HomeGameState extends State<HomeGame> {
 
   void _setGridSize() {
     int newSize = int.tryParse(gridSizeController.text) ?? 0;
-    if (newSize >= 3 && newSize <= 8) {
+    if (newSize >= 3 && newSize <= 9) {
       setState(() {
         gridSize = newSize;
         _clearBoard();
